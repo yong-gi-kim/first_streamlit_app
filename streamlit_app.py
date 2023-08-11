@@ -23,4 +23,4 @@ streamlit.dataframe(fruits_to_show)
 
 streamlit.dataframe(fruit_apple_toShow)
 
-streamlit.dataframe(my_fruit_list.loc['Grapes'])
+streamlit.dataframe(my_fruit_list.loc['Grapes','Lemon','Lime'])
