@@ -25,4 +25,5 @@ streamlit.dataframe(fruit_apple_toShow)
 multifruits = my_fruit_list.loc['Grapes'] + my_fruit_list.loc['Lemon'] + my_fruit_list.loc['Lime']
 
 streamlit.dataframe(multifruits)
+streamlit.text(multifruits)
 
