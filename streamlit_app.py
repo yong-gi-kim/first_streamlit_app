@@ -20,7 +20,6 @@ fruit_apple_toShow = my_fruit_list.loc[fruit_apple]
 
 # Display the table on the page.
 streamlit.dataframe(fruits_to_show)
-
 streamlit.dataframe(fruit_apple_toShow)
+streamlit.dataframe(my_fruit_list.loc['Grapes'])
 
-streamlit.dataframe(my_fruit_list.loc['Grapes'], my_fruit_list.loc['Lemon'])
